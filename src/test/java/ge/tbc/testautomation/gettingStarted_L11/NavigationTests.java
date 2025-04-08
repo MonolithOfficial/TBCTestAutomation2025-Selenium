@@ -40,7 +40,7 @@ public class NavigationTests {
             actions.
                     clickAndHold(sliderHandle)
                     .moveByOffset(10, 0)
-                    .release()
+                     .release()
                     .perform();
             x++;
         }
